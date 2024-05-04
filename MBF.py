@@ -52,8 +52,8 @@ def crack(d):
 		s = inputD('[?] Sandi')
 		if len(s) < 6:
 			cetak('!m[!] Jumlah huruf minimal !k6')
-		else:
-			break
+		
+			
 	return crack0(d,s)
 def tampilhasil(akun,sandi,data):
 	cekpoint = []
